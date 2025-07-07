@@ -3273,7 +3273,7 @@ requires-dist = [
     { name = "nomad-schema-plugin-run", marker = "extra == 'plugins'", specifier = ">=1.0.1" },
     { name = "nomad-schema-plugin-simulation-workflow", marker = "extra == 'plugins'", specifier = ">=1.0.1" },
     { name = "nomad-simulations", marker = "extra == 'plugins'", specifier = "==0.3.2" },
-    { name = "nomadworkshop", marker = "extra == 'plugins'", git = "https://github.com/NOMADe-Joshua/felixundjoshuanehmenkeineminus.git" },
+    { name = "nomadworkshop", marker = "extra == 'plugins'", git = "https://github.com/NOMADe-Joshua/felixundjoshuanehmenkeineminus.git?rev=c4b0ed90b4f97682e201a85f809ef2a735ed5b96" },
     { name = "perovskite-solar-cell-database", marker = "extra == 'plugins'", git = "https://github.com/FAIRmat-NFDI/nomad-perovskite-solar-cells-database.git?rev=v0.1.1" },
     { name = "pynxtools", marker = "extra == 'plugins'", specifier = "==0.10.7" },
     { name = "pynxtools-apm", marker = "extra == 'plugins'", specifier = ">=0.2.3" },
@@ -3613,7 +3613,7 @@ wheels = [
 [[package]]
 name = "nomadworkshop"
 version = "0.1.0"
-source = { git = "https://github.com/NOMADe-Joshua/felixundjoshuanehmenkeineminus.git#141c3d2bb8c5a5f602f78fd214ba35f61a3a2264" }
+source = { git = "https://github.com/NOMADe-Joshua/felixundjoshuanehmenkeineminus.git?rev=c4b0ed90b4f97682e201a85f809ef2a735ed5b96#c4b0ed90b4f97682e201a85f809ef2a735ed5b96" }
 dependencies = [
     { name = "nomad-baseclasses" },
     { name = "nomad-lab" },
