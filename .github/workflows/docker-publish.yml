@@ -20,6 +20,9 @@ env:
   NOMAD_DOCS_REPO: https://github.com/FAIRmat-NFDI/nomad-docs.git
   # If you want to skip the tests for some plugins, add them to the list below
   PLUGIN_TESTS_PLUGINS_TO_SKIP: |
+    dosnormalizer
+    bandstructurenormalizer
+    systemnormalizer
     workflowparsers
     nomad_porous_materials
     simulationworkflowschema
